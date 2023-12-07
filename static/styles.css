@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  height: 100svh;  
+}
+
+.left {    
+  background-image: url('background.jpg');
+  background-size: cover;  
+  background-position: center;
+  flex: 1 1 40%;
+}
+
+.right {    
+  flex: 1 1 60%;
+}
