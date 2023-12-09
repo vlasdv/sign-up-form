@@ -67,6 +67,7 @@ input {
   border: none;
   font-size: 1rem;
   padding: 10px;
+  background-color: transparent;
 }
 
 input:focus {
@@ -88,8 +89,8 @@ label {
   padding: 30px 0;
 }
 
-.form-inputs div {
-  border: 1px solid lightgray;
+.form-inputs div {  
+  border: 1px solid #aaa;
   border-radius: 5px;
   padding: 10px;
   min-width: 350px;
